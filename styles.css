@@ -9,7 +9,7 @@
 }
 
 body{
-	background: linear-gradient(to right, rgb(245, 188, 245), rgb(245, 188, 245));
+	background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
 }
 
 
@@ -21,8 +21,8 @@ body{
 	margin-right: auto;
 	
 	display: flex;
-	-webkit-box-shadow: 0 0 50px rgb(245, 188, 245);
-        box-shadow: 50 50 50px rgb(253, 253, 253);
+	-webkit-box-shadow: 0 0 80px rgb(189, 181, 181);
+        box-shadow: 80 80 80px rgb(212, 210, 210);
 }
 .tow-horizontal-line-hold-image{
 	display: flex;
@@ -314,13 +314,22 @@ body{
 .sk-level-100{
 	width: 95px;
 }
+.hobby-box{
+	margin-top: 20px;
+}
 .hob-row{
 	display: flex;
 	margin-top: 20px;
 }
 .hob-icon{
-	margin-left:30px;
+	width: 40px;
+	height: 40px;
+	margin-left:25px;
 	color: rgb(255, 197, 229);
+	border: solid 1px black;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 10px;
 }
 .lnaguage-design{
 	width:280px;
@@ -380,7 +389,7 @@ body{
 	margin-right: 10px;
 }
  .about{
-	margin-left: 10px;
+	margin-left: 20px;
 	line-height: 24px;
 	font-size: 12px;
 	text-align: justify;
@@ -444,18 +453,7 @@ body{
 	
 	
 }
-/* .time_ex1{
-	height: 40px;
-	width:60px ;
-	background-color:rgb(4, 83, 119);
-	clip-path: polygon(0% 0%, 65% 0, 100% 50%, 65% 100%, 0% 100%);
-	color: rgb(255, 255, 255);
-	font-size: 10px;
-	padding-top: 10px;
-	padding-left: 5px;
-	padding-right: 15px;
-	margin-top: 14px;
-} */
+
 
 
 .detail_section{
@@ -489,7 +487,7 @@ body{
 	font-weight: 600;
 }
 .company{
-	font-size: 14px;
+	font-size: 13px;
 	letter-spacing: 2px;
 	font-weight: 600;
 
